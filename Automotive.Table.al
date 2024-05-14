@@ -3,6 +3,8 @@ table 50100 "Automotive"
     Caption = 'Automotive';
     DataClassification = CustomerContent;
     DataCaptionFields = "No.", Description;
+    LookupPageId = "Automotive List";
+    DrillDownPageId = "Automotive List";
 
     fields
     {

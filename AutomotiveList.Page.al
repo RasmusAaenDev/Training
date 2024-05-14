@@ -6,6 +6,7 @@ page 50100 "Automotive List"
     UsageCategory = Lists;
     SourceTable = Automotive;
     Editable = false;
+    CardPageId = "Automotive Card";
 
     layout
     {
