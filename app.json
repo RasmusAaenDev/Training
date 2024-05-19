@@ -10,7 +10,13 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "75f1590f-55c5-4501-ae63-bada5534e852",
+      "name": "Performance Toolkit",
+      "version": "1.0.0.0",
+      "publisher": "Microsoft"
+    }],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "23.0.0.0",
