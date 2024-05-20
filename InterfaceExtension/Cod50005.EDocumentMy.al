@@ -1,4 +1,4 @@
-codeunit 50105 "EDocument My" implements "E-Document"
+codeunit 50005 "EDocument My" implements "E-Document"
 {
     procedure Check(var SourceDocumentHeader: RecordRef; EDocumentService: Record "E-Document Service"; EDocumentProcessingPhase: enum Microsoft.eServices.EDocument."E-Document Processing Phase")
     var

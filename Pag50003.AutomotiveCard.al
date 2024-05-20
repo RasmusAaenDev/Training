@@ -1,4 +1,4 @@
-page 50103 "Automotive Card"
+page 50003 "Automotive Card"
 {
     PageType = Card;
     SourceTable = Automotive;

@@ -1,4 +1,4 @@
-table 50100 "Automotive"
+table 50000 "Automotive"
 {
     Caption = 'Automotive';
     DataClassification = CustomerContent;

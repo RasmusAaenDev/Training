@@ -1,4 +1,4 @@
-page 50102 "Automotive Activities"
+page 50002 "Automotive Activities"
 {
     PageType = CardPart;
     SourceTable = "Activities Cue";

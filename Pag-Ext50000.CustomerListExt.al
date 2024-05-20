@@ -1,4 +1,4 @@
-pageextension 50100 "Customer List Ext" extends "Customer List"
+pageextension 50000 "Customer List Ext" extends "Customer List"
 {
     actions
     {

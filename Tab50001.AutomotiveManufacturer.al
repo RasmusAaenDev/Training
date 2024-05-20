@@ -1,11 +1,11 @@
-table 50102 "Automotive Model"
+table 50001 "Automotive Manufacturer"
 {
-    Caption = 'Automotive Model';
+    Caption = 'Automotive Manufacturer';
     DataClassification = SystemMetadata;
 
     fields
     {
-        field(1; "Model Code"; Code[20])
+        field(1; "Manufacturer Code"; Code[20])
         {
             DataClassification = SystemMetadata;
 
@@ -18,7 +18,7 @@ table 50102 "Automotive Model"
 
     keys
     {
-        key(Key1; "Model Code")
+        key(Key1; "Manufacturer Code")
         {
             Clustered = true;
         }

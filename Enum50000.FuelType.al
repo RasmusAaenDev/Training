@@ -1,4 +1,4 @@
-enum 50100 "Fuel Type"
+enum 50000 "Fuel Type"
 {
     Caption = 'Fuel Type';
     Extensible = false;

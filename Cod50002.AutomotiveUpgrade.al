@@ -1,4 +1,4 @@
-codeunit 50102 "Automotive Upgrade"
+codeunit 50002 "Automotive Upgrade"
 {
     Subtype = Upgrade;
 
