@@ -1,4 +1,4 @@
-codeunit 50102 MyTestCodeunit
+codeunit 50103 MyTestCodeunit
 {
     Subtype = Test;
 

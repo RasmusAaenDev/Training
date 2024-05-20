@@ -1,4 +1,4 @@
-codeunit 50101 "Create Sales Order"
+codeunit 50104 "Create Sales Order"
 {
     Subtype = Test;
 
