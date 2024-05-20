@@ -16,7 +16,14 @@
       "name": "Performance Toolkit",
       "version": "1.0.0.0",
       "publisher": "Microsoft"
-    }],
+    },
+    {
+      "id": "e1d97edc-c239-46b4-8d84-6368bdf67c8b",
+      "name": "E-Document Core",
+      "publisher": "Microsoft",
+      "version": "23.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "23.0.0.0",
