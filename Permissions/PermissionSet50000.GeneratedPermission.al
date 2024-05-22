@@ -19,5 +19,7 @@ permissionset 50000 GeneratedPermission
         page "Automotive List" = X,
         page "Automotive RoleCenter" = X,
         codeunit MyInherentCodeunit = X,
-        xmlport MyXmlport = X;
+        xmlport MyXmlport = X,
+        codeunit "Automotive Setup Subscriber" = X,
+        page "Automotive Wizard" = X;
 }
