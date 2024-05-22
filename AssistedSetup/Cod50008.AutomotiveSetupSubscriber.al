@@ -75,7 +75,3 @@ codeunit 50008 "Automotive Setup Subscriber"
 
     //TODO: Call "SomeAssistedSetup.UpdateStatus(); in case the wizard is run without the assisted setup.  It should call the "UpdateStatus" of this codeunit.
 }
-
-
-
-tassis
