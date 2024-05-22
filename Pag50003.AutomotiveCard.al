@@ -3,6 +3,8 @@ page 50003 "Automotive Card"
     PageType = Card;
     SourceTable = Automotive;
     ApplicationArea = All;
+    AboutTitle = 'About the Automotive Card';
+    AboutText = 'The automotive details can help you setup a basic automotive, which can later be used for automotive rental.';
 
     layout
     {
@@ -10,6 +12,8 @@ page 50003 "Automotive Card"
         {
             group(General)
             {
+                Caption = 'Configuration';
+
                 field("No."; Rec."No.")
                 {
                     ToolTip = 'Specifies the value of the No. field.';
@@ -28,6 +32,10 @@ page 50003 "Automotive Card"
             }
             group(Configuration)
             {
+                Caption = 'Configuration';
+                AboutTitle = 'Manage the vehicle configuration';
+                AboutText = 'Specify the exact model and manufacturer details, about the vehicle';
+
                 field(Model; Rec.Model)
                 {
                     ToolTip = 'Specifies the value of the Model field.';
@@ -37,6 +45,8 @@ page 50003 "Automotive Card"
                 {
                     ToolTip = 'Specifies the value of the Manufacturer field.';
                     ApplicationArea = All;
+                    AboutTitle = 'Vehicle Manufacurer';
+                    AboutText = 'Specifies the **exact manufacturer** of this vehicle, the manufacturer can be described in details on the specific manufacturer card.';
                 }
                 field(Year; Rec.Year)
                 {
