@@ -57,4 +57,30 @@ table 50000 "Automotive"
         fieldgroup(Brick; "No.", Description, Manufacturer, Model)
         { }
     }
+
+    trigger OnInsert()
+    var
+        AutomotiveSetup: Record "Automotive Setup";
+        NoSeries: Codeunit "No. Series";
+    begin
+        if "No." = '' then begin
+            AutomotiveSetup.Get();
+            AutomotiveSetup.TestField("No. Series");
+            "No." := NoSeries.GetNextNo(AutomotiveSetup."No. Series");
+        end;
+    end;
+
+    procedure AssistEdit(): Boolean
+    var
+        AutomotiveSetup: Record "Automotive Setup";
+        NoSeries: Codeunit "No. Series";
+        NewNoSeries: Code[20];
+    begin
+        AutomotiveSetup.Get();
+        AutomotiveSetup.TestField("No. Series");
+        if NoSeries.LookupRelatedNoSeries(AutomotiveSetup."No. Series", NewNoSeries) then begin
+            "No." := NoSeries.GetNextNo(NewNoSeries);
+            exit(true);
+        end;
+    end;
 }

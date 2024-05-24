@@ -21,5 +21,8 @@ permissionset 50000 GeneratedPermission
         codeunit MyInherentCodeunit = X,
         xmlport MyXmlport = X,
         codeunit "Automotive Setup Subscriber" = X,
-        page "Automotive Wizard" = X;
+        page "Automotive Wizard" = X,
+        tabledata "Automotive Setup" = RIMD,
+        table "Automotive Setup" = X,
+        page "Automotive Setup" = X;
 }

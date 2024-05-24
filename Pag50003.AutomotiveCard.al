@@ -18,6 +18,12 @@ page 50003 "Automotive Card"
                 {
                     ToolTip = 'Specifies the value of the No. field.';
                     ApplicationArea = All;
+
+                    trigger OnAssistEdit()
+                    begin
+                        if Rec.AssistEdit() then
+                            CurrPage.Update();
+                    end;
                 }
                 field(Description; Rec.Description)
                 {
