@@ -24,5 +24,6 @@ permissionset 50000 GeneratedPermission
         page "Automotive Wizard" = X,
         tabledata "Automotive Setup" = RIMD,
         table "Automotive Setup" = X,
-        page "Automotive Setup" = X;
+        page "Automotive Setup" = X,
+        report AutomotiveReport = X;
 }
